@@ -58,7 +58,7 @@ const Page = () => {
       <main className="flex min-h-screen flex-col">
         <header className="h-[6em] lg:px-16 px-0 bg-white flex flex-wrap items-center py-4 shadow-md z-[99]">
           <div className="flex-1 flex justify-between items-center">
-            <a href="#" aria-label="Logo de la organización"><img src="images/logo.avif" alt="" className="w-[4rem] h-[4rem] object-contain"></img></a>
+            <a href="#" aria-label="Logo de la organización"><img src="https://thezombrex.github.io/zorros/images/logo.avif" alt="" className="w-[4rem] h-[4rem] object-contain"></img></a>
           </div>
           <div className="hidden p-[5em] md:p-0 md:flex md:flex-col md:items-center md:w-auto w-full" id="menu">
             <nav>
@@ -75,12 +75,12 @@ const Page = () => {
           <div className="flex-3 flex justify-between items-center">
             <a className="md:p-4 py-3 block hover:text-[#618c24]/80 px-2 font-bold" href="#">Mi Cuenta</a>
             <a className="md:p-4 py-3 px-0 block hover:text-[#618c24]/80" href="#" aria-label="Bandera del idioma">
-              <img src="images/icons/spain-flag.avif" className="w-5 h-5 object-contain" alt=""></img>
+              <img src="https://thezombrex.github.io/zorros/images/icons/spain-flag.avif" className="w-5 h-5 object-contain" alt=""></img>
             </a>
           </div>
           <a href="#" id="menu-button" className="block md:hidden lg:hidden mx-5 text-4xl text-black hover:text-[#618c24]/80"><Icon path={mdiMenu} size={1} /></a>
         </header>
-        <section className='flex flex-col bg-cover bg-[url(/images/bg.avif)] w-screen h-screen'>
+        <section className='flex flex-col bg-cover bg-[url(https://thezombrex.github.io/zorros/images/bg.avif)] w-screen h-screen'>
           <div className="px-4 mx-auto max-w-7xl my-[20vh] sm:px-6 lg:px-8 z-10">
             <div className="text-center">
               <h1
@@ -100,8 +100,8 @@ const Page = () => {
             </div>
           </div>
           <div className='flex flex-row justify-between items-end px-10 absolute w-screen h-screen bottom-0 pointer-events-none overflow-x-hidden z-0'>
-            <img src="/images/hero-image.avif" alt="" className='min-w-50 max-w-1/2 h-1/3 lg:h-1/2 object-contain pointer-events-none z-0' />
-            <img src="/images/hero-image2.avif" alt="" className='min-w-1/2 h-1/3 lg:h-1/2 object-contain pointer-events-none z-0' />
+            <img src="https://thezombrex.github.io/zorros/images/hero-image.avif" alt="" className='min-w-50 max-w-1/2 h-1/3 lg:h-1/2 object-contain pointer-events-none z-0' />
+            <img src="https://thezombrex.github.io/zorros/images/hero-image2.avif" alt="" className='min-w-1/2 h-1/3 lg:h-1/2 object-contain pointer-events-none z-0' />
           </div>
         </section>
         <section className='flex flex-col bg-[#121212]'>
@@ -114,7 +114,7 @@ const Page = () => {
             adorable peluche como agradecimiento por tu apoyo. Sé parte 
             activa en la protección de estos majestuosos animales en nuestra 
             reserva natural."
-              imageSrc="/images/card1-fox.avif"
+              imageSrc="https://thezombrex.github.io/zorros/images/card1-fox.avif"
               buttonName="Ver Precios"
               buttonHref="#"
               hasButton={true}
@@ -127,7 +127,7 @@ const Page = () => {
             del refugio. Tu contribución cubre gastos vitales como alimentación, 
             limpieza y vigilancia, asegurando un ambiente seguro para estos 
             animales en nuestra reserva protegida."
-              imageSrc="/images/card2-fox.avif"
+              imageSrc="https://thezombrex.github.io/zorros/images/card2-fox.avif"
               buttonName=""
               buttonHref=""
               hasButton={false}
@@ -141,7 +141,7 @@ const Page = () => {
             correspondiente. Cada adopción adicional amplía tu apoyo, 
             asegurando la manutención y cuidado individual de cada zorro 
             en nuestra reserva protegida."
-              imageSrc="/images/card3-fox.avif"
+              imageSrc="https://thezombrex.github.io/zorros/images/card3-fox.avif"
               buttonName=""
               buttonHref=""
               hasButton={false}
@@ -154,42 +154,42 @@ const Page = () => {
             <div className='grid grid-cols-1 justify-center items-center gap-4 md:grid-cols-2 lg:grid-cols-4 '>
               <SquareCard
                 title="Roxy"
-                image="/images/grid-fox1.avif"
+                image="https://thezombrex.github.io/zorros/images/grid-fox1.avif"
                 linkto="#"
               />
               <SquareCard
                 title="Luna"
-                image="/images/grid-fox2.avif"
+                image="https://thezombrex.github.io/zorros/images/grid-fox2.avif"
                 linkto="#"
               />
               <SquareCard
                 title="Sombra"
-                image="/images/grid-fox3.avif"
+                image="https://thezombrex.github.io/zorros/images/grid-fox3.avif"
                 linkto="#"
               />
               <SquareCard
                 title="Milo"
-                image="/images/grid-fox4.avif"
+                image="https://thezombrex.github.io/zorros/images/grid-fox4.avif"
                 linkto="#"
               />
               <SquareCard
                 title="Ginger"
-                image="/images/grid-fox5.avif"
+                image="https://thezombrex.github.io/zorros/images/grid-fox5.avif"
                 linkto="#"
               />
               <SquareCard
                 title="Finn"
-                image="/images/grid-fox6.avif"
+                image="https://thezombrex.github.io/zorros/images/grid-fox6.avif"
                 linkto="#"
               />
               <SquareCard
                 title="Rusty"
-                image="/images/grid-fox7.avif"
+                image="https://thezombrex.github.io/zorros/images/grid-fox7.avif"
                 linkto="#"
               />
               <SquareCard
                 title="Bella"
-                image="/images/grid-fox8.avif"
+                image="https://thezombrex.github.io/zorros/images/grid-fox8.avif"
                 linkto="#"
               />
             </div>

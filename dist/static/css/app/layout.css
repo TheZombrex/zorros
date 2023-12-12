@@ -943,8 +943,8 @@ select{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\/images\/bg\.avif\)\]{
-  background-image: url(/images/bg.avif);
+.bg-\[url\(https\:\/\/thezombrex\.github\.io\/zorros\/images\/bg\.avif\)\]{
+  background-image: url(https://thezombrex.github.io/zorros/images/bg.avif);
 }
 .bg-cover{
   background-size: cover;
