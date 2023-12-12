@@ -80,7 +80,7 @@ const Page = () => {
           </div>
           <a href="#" id="menu-button" className="block md:hidden lg:hidden mx-5 text-4xl text-black hover:text-[#618c24]/80"><Icon path={mdiMenu} size={1} /></a>
         </header>
-        <section className='flex flex-col bg-cover bg-[url(/images/bg.avif)] w-screen h-screen'>
+        <section className='flex flex-col bg-cover bg-[url(images/bg.avif)] w-screen h-screen'>
           <div className="px-4 mx-auto max-w-7xl my-[20vh] sm:px-6 lg:px-8 z-10">
             <div className="text-center">
               <h1
