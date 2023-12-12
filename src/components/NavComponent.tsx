@@ -1,17 +1,16 @@
 'use client'
-import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Image from 'next/image';
 import Icon from '@mdi/react';
 import dynamic from 'next/dynamic';
-import { useClient } from 'next-client';
 import { useState, useEffect } from 'react';
 import { mdiMenu } from '@mdi/js';
 
 const NavComponent = () => {
   useEffect(() => {
-    const handleMenuButtonClick = (event) => {
+    const handleMenuButtonClick = (event: MouseEvent) => {
+      const typedEvent = event as unknown as React.MouseEvent<HTMLAnchorElement, MouseEvent>;
       event.preventDefault();
       const menu = document.getElementById('menu');
 

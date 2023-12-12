@@ -1,7 +1,7 @@
 import React from 'react';
 import GreenButton from './GreenButton';
 
-const LargeCard = ({ title, description, imageSrc, buttonName, buttonHref, hasButton }) => {
+const LargeCard = ({ title, description, imageSrc, buttonName, buttonHref, hasButton }: { title: string, description: string, imageSrc: string, buttonName: string, buttonHref: string, hasButton: boolean }) => {
   return (
     <div className="card p-5 m-5 gap-5 flex flex-col items-center justify-center text-white md:flex-row lg:flex-row">
       <div className="mt-5 mr-5 flex-shrink-0">

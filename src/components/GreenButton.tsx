@@ -1,6 +1,6 @@
 import React from 'react';
 
-const GreenButton = ({ buttonName, buttonHref }) => {
+const GreenButton = ({ buttonName, buttonHref }: { buttonName: string, buttonHref: string }) => {
     return (
 
         <a href={buttonHref} title=""

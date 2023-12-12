@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SquareCard = ({ title, image, linkto }) => {
+const SquareCard = ({ title, image, linkto }: { title: string, image: string, linkto: string }) => {
     return (
 
         <div className='flex flex-col w-100 m-auto'>

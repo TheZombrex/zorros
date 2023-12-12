@@ -3,7 +3,7 @@ import Icon from '@mdi/react';
 import { mdiCheckboxMarked, mdiCloseBox } from '@mdi/js';
 import GreenButton from './GreenButton';
 import { wrap } from 'module';
-const PricingCard = ({ title, price, items_value }) => {
+const PricingCard = ({ title, price, items_value }: { title: string, price: string, items_value: string }) => {
     const parsedItemsValues = JSON.parse(items_value);
     const items_name = ["Fotos exclusivas", "Cámaras en vivo", "Peluche especial", "Visita guiada gratuita al refugio"]
 
@@ -16,7 +16,7 @@ const PricingCard = ({ title, price, items_value }) => {
             </div>
             <div className='mt-[2em] p-2 border-t border-slate-600 border-spacing-5'>
                 <ul className='text-lg'>
-                    {parsedItemsValues.map((items_value, index) => (
+                    {parsedItemsValues.map((items_value: string, index: number) => (
                         <li key={index} style={{ height: '3em' }} className='text-left flex justify-between gap-2'>
                             <span className='text-wrap-balance'>{items_name[index]}</span>
                             {items_value ? (
