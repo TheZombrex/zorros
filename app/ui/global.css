@@ -6,8 +6,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url(./materialdesignicons.min.css); */
-
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
