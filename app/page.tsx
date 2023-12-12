@@ -53,6 +53,7 @@ const Page = () => {
     <>
       <header>
         <title>Fox Conservation Center</title>
+        <link rel="icon" href="favicon.ico" sizes="any" />
         <meta name="description" content="Somos una organización comprometida con la preservación de la vida silvestre, centrada en la conservación y protección de los zorros en su hábitat natural. Nuestra misión es asegurar un entorno seguro y sostenible para estos cautivadores animales, fomentando su bienestar y la coexistencia armoniosa con el ecosistema circundante. A través de programas de adopción, educación ambiental y acciones de conservación, trabajamos incansablemente para garantizar un futuro próspero para los zorros y su entorno, promoviendo la conciencia y el cuidado responsable de la vida salvaje." />
       </header>
       <main className="flex min-h-screen flex-col">
